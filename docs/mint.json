@@ -74,6 +74,10 @@
     {
         "name": "Tools",
         "url": "/tools"
+    },
+    {
+        "name": "JS",
+        "url": "/js"
     }
   ],
   "navigation": [
@@ -115,18 +119,23 @@
     {
       "group": "Features",
       "pages": [
+        "features/cli",
         "features/autoagents",
+        "features/image-generation",
         "features/selfreflection",
         "features/rag",
+        "features/reasoning-extract",
         "features/reasoning",
         "features/multimodal",
         "features/langchain",
         "features/async",
         "features/mini",
+        "features/generate-reasoning",
         "features/codeagent",
         "features/mathagent",
         "features/structured",
-        "features/callbacks"
+        "features/callbacks",
+        "features/chat-with-pdf"
       ]
     },
     {
@@ -232,6 +241,16 @@
       ]
     },
     {
+      "group": "JavaScript",
+      "pages": [
+        "js/js",
+        "js/typescript",
+        "js/nodejs",
+        "js/typescript-async",
+        "js/development"
+      ]
+    },
+    {
       "group": "Other Features",
       "pages": [
         "train",
@@ -251,7 +270,10 @@
           "pages": [
             "ui/streamlit",
             "ui/streamlit/code-analysis-streamlit",
-            "ui/streamlit/hackathon-judge-streamlit"
+            "ui/streamlit/hackathon-judge-streamlit",
+            "ui/streamlit/ollama-streamlit",
+            "ui/streamlit/deepseek-streamlit",
+            "ui/streamlit/gemini-streamlit"
           ]
         },
         "ui/ui",
@@ -272,6 +294,7 @@
         "developers/wrapper-tools",
         "developers/googlecolab",
         "developers/googlecolab-tools",
+        "developers/local-development",
         "deploy"
       ]
     },
